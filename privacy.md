@@ -1,6 +1,6 @@
 # Privacy Policy
 
-[Your App Name] does not collect, store, or share any personal data.
+BabyHush does not collect, store, or share any personal data.
 
 The app works fully offline and does not require account creation.
 No analytics, tracking, or third-party services are used.
