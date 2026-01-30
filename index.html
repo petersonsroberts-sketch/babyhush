@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BabyHush</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="card hero">
+      <div class="badge">BabyHush</div>
+      <h1>Calm sound for sleep.</h1>
+      <p class="muted">
+        BabyHush is a simple white-noise app designed to help create a calmer environment.
+      </p>
+
+      <div class="links">
+        <a class="btn" href="support.html">Support</a>
+        <a class="btn secondary" href="privacy.html">Privacy Policy</a>
+      </div>
+    </header>
+
+    <footer class="footer">
+      <span class="muted">© <span id="y"></span> BabyHush</span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
